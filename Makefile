@@ -1,0 +1,2 @@
+main : main.cpp Connection.cpp Connection.h FileProxy.cpp FileProxy.h SMSReader.cpp SMSReader.h Config.h
+	g++ -g  -o main main.cpp Connection.cpp FileProxy.cpp SMSReader.cpp -lGammu -I/usr/include/gammu
